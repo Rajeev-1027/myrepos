@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My Story</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/style/mystyle.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("My Story ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+            <div class="container" >
+                <nav class="navbar">
+
+
+                    <ul class="nav navbar-nav">
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a href="/Home/SignUp">SignUp</a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a></a></li>
+                        <li><a href="/Home/SignIn">SignIn</a></li>
+
+                    </ul>
+
+
+                </nav>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <div class="container body-content">
+        <br />
+        <br />
+        @RenderBody()
+
+        <br />
+        <br />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My Story</p>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
